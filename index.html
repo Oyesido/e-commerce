@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketHub</title>
+    <meta
+      name="description"
+      content="MarketHub is a modern e-commerce storefront scaffold."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --accent: #2563eb;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, #eff6ff 0%, var(--bg) 100%);
+        color: var(--text);
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 80px 24px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid #e2e8f0;
+        border-radius: 18px;
+        box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+        padding: 40px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.7;
+      }
+
+      .tag {
+        display: inline-block;
+        background: rgba(37, 99, 235, 0.1);
+        color: var(--accent);
+        font-weight: 700;
+        padding: 8px 12px;
+        border-radius: 999px;
+        margin-bottom: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section class="card">
+        <div class="tag">E-Commerce</div>
+        <h1>Berekete</h1>
+        <p>
+          This project now includes a standalone HTML entry file for the storefront scaffold.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
